@@ -16,7 +16,7 @@
     --color-input-background: #f8f8fc;
     --color-button-text: #ffffff;
     --color-box-base: #ffffff;
-    --color-box-footer: #fafadc;
+    --color-box-footer: #fafafc;
     --color-small-info: #c1bccc;
     font-size: 60%; /* controle das medidas rem */
 }
@@ -46,4 +46,10 @@ body, input, button, textarea {
 #container {
     width: 90vw;
     max-width: 700px;
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%; /* todo 1rem vai ser relativo a 10px */
+    }
 }
